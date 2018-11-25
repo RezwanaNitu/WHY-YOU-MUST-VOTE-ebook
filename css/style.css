@@ -292,7 +292,7 @@ h6 {
 	letter-spacing: 1.5px;
 	font-size: 48px;
 }
-#top-banner p {
+#top-banner p, ul {
 	margin-bottom: 20px;
 	color: #dfdfdf;
 }
