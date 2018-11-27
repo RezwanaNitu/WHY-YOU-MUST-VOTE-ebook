@@ -77,7 +77,11 @@ h4,
 h5,
 h6 {
 	font-family: "Dosis", sans-serif;
-	font-weight: 600;
+	font-weight: 700;
+}
+p {
+	color: #000;
+	font-size: 16px;
 }
 .padding-bottom-30 {
 	padding-bottom: 30px;
@@ -183,6 +187,7 @@ h6 {
 .btn.btn-primary:hover {
 	opacity: 0.8;
 }
+
 .back-to-top {
 	display: none;
 	position: fixed;
@@ -275,7 +280,7 @@ h6 {
 	background-repeat: repeat-y;
 	background-size: cover;
 	width: 100%;
-	min-height: 750px;
+	min-height: 800px;
 	position: relative;
 }
 .top-banner-overlay {
@@ -292,7 +297,7 @@ h6 {
 	letter-spacing: 1.5px;
 	font-size: 48px;
 }
-#top-banner p {
+#top-banner p, ul {
 	margin-bottom: 20px;
 	color: #dfdfdf;
 }
@@ -403,6 +408,10 @@ h6 {
 	font-size: 28px;
 	line-height: 25px;
 	margin: 10px 20px 5px 5px;
+}
+.about-book-btn {
+	margin: 0 auto;
+	text-align: center;
 }
 #about-book-video .book-video {
 	margin-top: 10px;
